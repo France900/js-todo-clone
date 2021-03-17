@@ -12,6 +12,7 @@
 
 // input dati da aggiungere alla todolist
 var addListItem = $("#addListItem").val()
+console.log("addListItem", addListItem);
 
 
 // aggiungo input dati da aggiungere alla lista al click su botton
@@ -19,8 +20,18 @@ var addListItem = $("#addListItem").val()
 // seleziono dove mi va il click
 $("#buttonPush")
 
-// la funzione del click
+var onClick = $("#buttonPush")
+console.log("onClick", onClick);
 
+// la funzione del click
+// .click(function () {
+//
+// })
+
+// la somma dei fatti
+onClick.click(function () {
+
+})
 
 
 
